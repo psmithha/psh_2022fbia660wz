@@ -1,0 +1,30 @@
+Step 1
+
+Create a GitHub account (if you do not already have one) at https://github.com/ (Links to an external site.).
+
+Step 2a
+
+Write a Python 3 program that uses the Requests module to make the following HTTP requests:
+
+A: A Google search for the term "Tim Berners-Lee".
+
+B: A POST request to a website that does not accept POST requests.
+
+C: A request to a URL that does not exist.
+
+For each request, your program must print:
+
+The content ("body") of the response
+The status code of the response
+The response headers
+Step 2b (optional)
+
+Determine how long it takes, round trip, to make a single HTTP request and get back a response. In practice, there are many factors that might affect the roundtrip time, including for example, (1) the amount of processing performed server side, (2) the physical distance between the client and server, and (3) the HTTP method. Pick a few of these factors and assess their effect on the response time. Can you find two requests with extremely different roundtrip times? Lastly, what does the timing imply for systems that scrape the web? For example, how long would it take to pull down all ~1 billion LinkedIn profile if sending separate HTTP requests to their servers, serially? Write your response in the comments of the program you wrote in Step 2a.
+
+Step 3
+
+Place your program in a GitHub Gist (see https://help.github.com/articles/creating-gists/ (Links to an external site.) for instructions).
+
+Step 4
+
+Submit the URL of your Gist using Canvas.
